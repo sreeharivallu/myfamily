@@ -1,0 +1,134 @@
+
+    {   "Myself":
+        { 
+            "name": "Sreehari Vallu",
+            "expert": "5G Engineer and Full Stack Developer",
+            "home":{
+                "Name": "Sreehari Vallu", 
+                "Email": "sreeharivallu@gmail.com",
+                "Phone": "+61421976537",
+                "Whatsapp": "+919491295335",
+                "Hobbies": "Playing Cricket"
+                
+            },
+            "profession":{
+                "Experience": "7 years in Telecom 3G, 4G and 5 networks, 3 years in Full stack develoment",
+                "Education" : "Masters in Computer science",
+                "Profession": "5G Engineer and Full Stack Developer",
+                "Projects": "classified"
+            },
+            "top_skills": "Evolved packet core, 4G, 5G, NodeJs, Angular, Mocha",
+            "work_links": {
+                "Stackoverflow": "https://stackoverflow.com/users/5801928/sreehari",
+                "Github":"https://github.com/sreeharivallu",
+                "Linkedin": "https://www.linkedin.com/in/sreehari-vallu-62813248/"  
+            },
+            "skills": ["Evolved packet core, 4G, 5G, Javascript, NodeJs", "Angular", "Mocha",
+                         "mysql", "Mongodb", "Html5", "Css3"],
+            "pic": "sreehari.png"
+        },
+    
+        "My wife":
+        { 
+            "name": "Deepika Rao Guthula",
+            "expert": "Embedded systems engineer",
+            "home":{
+                "name": "deepika rao guthula", 
+                "email": "gdrao4128@gmail.com",
+                "phone": "+918008544110",
+                "hobbies": "Baking, Reading novels"
+                
+            },
+            "profession":{
+                "Education" : "Bachelors degree in Electronics and Communication Engineering",
+                "Profession": "Embedded systems engineer",
+                "Experience": "10+",                
+                "Projects": "many"
+            },
+            "top_skills": "C, CAN protocol",
+            "skills": ["C", "C++", "Can protocol", "Automotive domain"],                         
+            "pic": "deepika.jpg"
+        },    
+        "My son":
+        { 
+            "name": "Bhavesh Vallu",
+            "expert": "Student",
+            "home":{
+                "name": "bhavesh vallu", 
+                "email": "sree.bobby4u@gmail.com",
+                "phone": "+919491295335",
+                "hobbies":"Playing with mom and dad, Watching Pa pa pi"
+                
+            },
+            "profession":{
+                "Experience": "0",
+                "Education" : "Just started my schooling",
+                "Profession": "Student",
+                "Projects": "0"
+            },
+            "top_skills": "Confidence",
+            "pic": "bhavesh.jpg"
+        },
+        "My dad":
+        { 
+            "name": "Satyanarayana Vallu",
+            "expert": "Civil Engineer",
+            "home":{
+                "name": "satyanarayana vallu", 
+                "email": "satyanarayana.vallu@gmail.com",
+                "phone": "+919676690689",
+                "hobbies":""
+                
+            },
+            "profession":{
+                "Experience": "30yrs",
+                "Education" : "Diploma is civil and architecture",
+                "Profession": "Rtd Assistant city planner",
+                "Projects": "10+"
+            },
+            "top_skills": "Planning, Land Surveys, Land development",
+            "skills": ["Planning", "Land Survey", "Land development",
+                         "Creative thinking", "Autocad"],
+            "pic": "dad.jpg",
+            "note": {"Hari": "We miss you dad."}
+        },
+        "My mom":
+        { 
+            "name": "Vijayalakshmi Rayudu",
+            "expert": "Nursing",
+            "home":{
+                "name": "vijayalakshmi rayudu", 
+                "email": " ",
+                "phone": "+919441963015",
+                "hobbies":"Cooking sea food"
+                
+            },
+            "profession":{
+                "Education" : "SSC",
+                "Profession": "Rtd Head nurse",
+                "Experience": "30yrs"                
+            },
+            "top_skills": "Patience, Confidence, Adaptability",
+            "pic": "mom.JPG"
+        },
+        "My brother":
+        { 
+            "name": "Ramakrishna",
+            "expert": "Dentist",
+            "home":{
+                "name": "Ramakrishna", 
+                "email": " ",
+                "phone": "+919676003833",
+                "hobbies":"Swimming"
+                
+            },
+            "profession":{
+                "Education" : "Masters in Dentist",
+                "Profession": "Assistant professor and CEO of RK dental clinic",
+                "Experience": "8yrs"                
+            },
+            "top_skills": "Root canals, Pedodontist",
+            "pic": "ramki.jpg"
+        }       
+    }
+

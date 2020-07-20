@@ -1,7 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-const routes: Routes = [];
+import { FamilyComponent } from './family/family.component';
+
+const routes: Routes = [
+  { path: 'mypage/:name', component: FamilyComponent },
+  { path: '**', redirectTo: 'mypage/Myself'}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

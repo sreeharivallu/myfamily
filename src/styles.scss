@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+.profile-tab{
+    label{
+        font-weight: 600;
+    }
+
+    p{
+        font-weight: 600;
+        color: #0062cc;
+    }
+
+}

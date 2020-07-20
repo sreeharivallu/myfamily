@@ -1,0 +1,57 @@
+
+<!--p> Reference: https://bootsnipp.com/snippets/K0ZmK</p-->
+
+  <div class="container my-profile">
+        
+          <div class="row">
+              <div class="col-md-4">
+                <div class="profile-pic">
+                 <img src="../../assets/{{personData.pic}}"/>
+                </div>
+              </div>
+              <div class="col-md-6 text-center">
+                <div class="profile-head">
+                  <h5> {{familyMember}} </h5>
+                  <h6> {{personData.expert}}</h6>
+                  <p> Top skills: <span>{{personData.top_skills}} </span></p>
+                  <ul class="nav nav-tabs" id="myTab">
+                      <li class="nav-item">
+                          <!--a href class="nav-link" routerLinkActive="active" data-toggle="tab" id="home-tab" (click)="home=true">Home</a-->
+                          <div class="nav-link" [ngClass]="{'active': about == 'home'}" id="home-tab" (click)="showTab('home')"> Home </div>
+                      </li>
+                      <li class="nav-item">
+                          <div class="nav-link" [ngClass]="{'active': about == 'profession'}" id="profile-tab" (click)="showTab('profession')">Profession</div>                          
+                      </li>
+                      <li class="nav-item">
+                        <div class="nav-link" [ngClass]="{'active': about == 'note'}" id="profile-tab" (click)="showTab('note')">Note</div>
+                      </li>
+                    </ul>
+                  
+                </div>       
+              </div>
+              <div class="col-md-2">                  
+              </div>
+          </div>
+        
+          <div class="row">
+              <div class="col-md-4 d-none d-md-block">
+                  <div class="profile-work">
+                      <p>WORK LINKS</p>
+                      <div *ngFor="let link of personData.work_links | keyvalue">
+                      <a href="{{link.value}}" target="_blank">{{link.key}}</a><br/>
+                      </div>
+                      
+                      <p>SKILLS</p>
+                      <div *ngFor="let skill of personData.skills">
+                        <a href="">{{skill}}</a> <br/>
+                      </div>
+                      
+                  </div>
+              </div>
+              <div class="col-md-8">
+                <div class=profile-tab>                  
+                    <app-profile-about [familyMember]="familyMember" [about]="about"></app-profile-about>
+                </div>
+              </div>
+             </div>
+            </div>
